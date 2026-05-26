@@ -1,0 +1,557 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "EXIF": {
+            "type": "object",
+            "properties": {
+                "SourceFile": {
+                    "type": "string"
+                },
+                "ExifTool:ExifToolVersion": {
+                    "type": "integer"
+                },
+                "File:FileName": {
+                    "type": "string"
+                },
+                "File:Directory": {
+                    "type": "string"
+                },
+                "File:FileSize": {
+                    "type": "integer"
+                },
+                "File:FileModifyDate": {
+                    "type": "string"
+                },
+                "File:FileAccessDate": {
+                    "type": "string"
+                },
+                "File:FileInodeChangeDate": {
+                    "type": "string"
+                },
+                "File:FilePermissions": {
+                    "type": "integer"
+                },
+                "File:FileType": {
+                    "type": "string"
+                },
+                "File:FileTypeExtension": {
+                    "type": "string"
+                },
+                "File:MIMEType": {
+                    "type": "string"
+                },
+                "File:ExifByteOrder": {
+                    "type": "string"
+                },
+                "File:CurrentIPTCDigest": {
+                    "type": "string"
+                },
+                "File:ImageWidth": {
+                    "type": "integer"
+                },
+                "File:ImageHeight": {
+                    "type": "integer"
+                },
+                "File:EncodingProcess": {
+                    "type": "integer"
+                },
+                "File:BitsPerSample": {
+                    "type": "integer"
+                },
+                "File:ColorComponents": {
+                    "type": "integer"
+                },
+                "File:YCbCrSubSampling": {
+                    "type": "string"
+                },
+                "JFIF:JFIFVersion": {
+                    "type": "string"
+                },
+                "JFIF:ResolutionUnit": {
+                    "type": "integer"
+                },
+                "JFIF:XResolution": {
+                    "type": "integer"
+                },
+                "JFIF:YResolution": {
+                    "type": "integer"
+                },
+                "EXIF:ImageDescription": {
+                    "type": "string"
+                },
+                "XMP:XMPToolkit": {
+                    "type": "string"
+                },
+                "XMP:PublisherID": {
+                    "type": "string"
+                },
+                "XMP:ResourceID": {
+                    "type": "string"
+                },
+                "XMP:ResourceURL": {
+                    "type": "string"
+                },
+                "XMP:Type": {
+                    "type": "string"
+                },
+                "XMP:MetadataDate": {
+                    "type": "string"
+                },
+                "XMP:Publisher": {
+                    "type": "string"
+                },
+                "XMP:ReferenceURL": {
+                    "type": "string"
+                },
+                "XMP:MetadataVersion": {
+                    "type": "integer"
+                },
+                "XMP:Id": {
+                    "type": "string"
+                },
+                "XMP:SpatialCoordsystemProjection": {
+                    "type": "string"
+                },
+                "XMP:SpatialEquinox": {
+                    "type": "string"
+                },
+                "XMP:SpatialQuality": {
+                    "type": "string"
+                },
+                "XMP:SpatialCoordinateFrame": {
+                    "type": "string"
+                },
+                "XMP:SpatialRotation": {
+                    "type": "integer"
+                },
+                "XMP:Credit": {
+                    "type": "string"
+                },
+                "XMP:DateCreated": {
+                    "type": "string"
+                },
+                "XMP:Source": {
+                    "type": "string"
+                },
+                "XMP:Instrument": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:SpectralBand": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:SpatialReferenceDimension": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "XMP:SpectralColorAssignment": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:SpectralBandpass": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:SpatialScale": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "XMP:SpatialNotes": {
+                    "type": "string"
+                },
+                "XMP:SpectralNotes": {
+                    "type": "string"
+                },
+                "XMP:SpatialReferencePixel": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "XMP:SpatialReferenceValue": {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "XMP:Facility": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:CreatorCountry": {
+                    "type": "string"
+                },
+                "XMP:CreatorAddress": {
+                    "type": "string"
+                },
+                "XMP:CreatorWorkURL": {
+                    "type": "string"
+                },
+                "XMP:CreatorCity": {
+                    "type": "string"
+                },
+                "XMP:Title": {
+                    "type": "string"
+                },
+                "XMP:Subject": {
+                    "type": "string"
+                },
+                "XMP:UsageTerms": {
+                    "type": "string"
+                },
+                "IPTC:CodedCharacterSet": {
+                    "type": "string"
+                },
+                "IPTC:ApplicationRecordVersion": {
+                    "type": "integer"
+                },
+                "IPTC:ObjectName": {
+                    "type": "string"
+                },
+                "IPTC:Keywords": {
+                    "type": "string"
+                },
+                "IPTC:DateCreated": {
+                    "type": "string"
+                },
+                "IPTC:TimeCreated": {
+                    "type": "string"
+                },
+                "IPTC:Credit": {
+                    "type": "string"
+                },
+                "IPTC:Source": {
+                    "type": "string"
+                },
+                "Photoshop:IPTCDigest": {
+                    "type": "string"
+                },
+                "Ducky:Quality": {
+                    "type": "integer"
+                },
+                "ICC_Profile:ProfileCMMType": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileVersion": {
+                    "type": "integer"
+                },
+                "ICC_Profile:ProfileClass": {
+                    "type": "string"
+                },
+                "ICC_Profile:ColorSpaceData": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileConnectionSpace": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileDateTime": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileFileSignature": {
+                    "type": "string"
+                },
+                "ICC_Profile:PrimaryPlatform": {
+                    "type": "string"
+                },
+                "ICC_Profile:CMMFlags": {
+                    "type": "integer"
+                },
+                "ICC_Profile:DeviceManufacturer": {
+                    "type": "string"
+                },
+                "ICC_Profile:DeviceModel": {
+                    "type": "string"
+                },
+                "ICC_Profile:DeviceAttributes": {
+                    "type": "string"
+                },
+                "ICC_Profile:RenderingIntent": {
+                    "type": "integer"
+                },
+                "ICC_Profile:ConnectionSpaceIlluminant": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileCreator": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileID": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileCopyright": {
+                    "type": "string"
+                },
+                "ICC_Profile:ProfileDescription": {
+                    "type": "string"
+                },
+                "ICC_Profile:MediaWhitePoint": {
+                    "type": "string"
+                },
+                "ICC_Profile:MediaBlackPoint": {
+                    "type": "string"
+                },
+                "ICC_Profile:RedMatrixColumn": {
+                    "type": "string"
+                },
+                "ICC_Profile:GreenMatrixColumn": {
+                    "type": "string"
+                },
+                "ICC_Profile:BlueMatrixColumn": {
+                    "type": "string"
+                },
+                "ICC_Profile:DeviceMfgDesc": {
+                    "type": "string"
+                },
+                "ICC_Profile:DeviceModelDesc": {
+                    "type": "string"
+                },
+                "ICC_Profile:ViewingCondDesc": {
+                    "type": "string"
+                },
+                "ICC_Profile:ViewingCondIlluminant": {
+                    "type": "string"
+                },
+                "ICC_Profile:ViewingCondSurround": {
+                    "type": "string"
+                },
+                "ICC_Profile:ViewingCondIlluminantType": {
+                    "type": "integer"
+                },
+                "ICC_Profile:Luminance": {
+                    "type": "string"
+                },
+                "ICC_Profile:MeasurementObserver": {
+                    "type": "integer"
+                },
+                "ICC_Profile:MeasurementBacking": {
+                    "type": "string"
+                },
+                "ICC_Profile:MeasurementGeometry": {
+                    "type": "integer"
+                },
+                "ICC_Profile:MeasurementFlare": {
+                    "type": "integer"
+                },
+                "ICC_Profile:MeasurementIlluminant": {
+                    "type": "integer"
+                },
+                "ICC_Profile:Technology": {
+                    "type": "string"
+                },
+                "ICC_Profile:RedTRC": {
+                    "type": "string"
+                },
+                "ICC_Profile:GreenTRC": {
+                    "type": "string"
+                },
+                "ICC_Profile:BlueTRC": {
+                    "type": "string"
+                },
+                "APP14:DCTEncodeVersion": {
+                    "type": "integer"
+                },
+                "APP14:APP14Flags0": {
+                    "type": "integer"
+                },
+                "APP14:APP14Flags1": {
+                    "type": "integer"
+                },
+                "APP14:ColorTransform": {
+                    "type": "integer"
+                },
+                "Composite:ImageSize": {
+                    "type": "string"
+                },
+                "Composite:Megapixels": {
+                    "type": "integer"
+                },
+                "Composite:DateTimeCreated": {
+                    "type": "string"
+                },
+                "Composite:DateTimeOriginal": {
+                    "type": "string"
+                },
+                "XMP:TemporalIntegrationTime": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "EXIF:Software": {
+                    "type": "string"
+                },
+                "EXIF:ModifyDate": {
+                    "type": "string"
+                },
+                "XMP:CreatorTool": {
+                    "type": "string"
+                },
+                "XMP:CreateDate": {
+                    "type": "string"
+                },
+                "XMP:ModifyDate": {
+                    "type": "string"
+                },
+                "XMP:Format": {
+                    "type": "string"
+                },
+                "XMP:ColorMode": {
+                    "type": "integer"
+                },
+                "XMP:ICCProfileName": {
+                    "type": "string"
+                },
+                "XMP:InstanceID": {
+                    "type": "string"
+                },
+                "XMP:DocumentID": {
+                    "type": "string"
+                },
+                "XMP:OriginalDocumentID": {
+                    "type": "string"
+                },
+                "XMP:FLStretchFunction": {
+                    "type": "string"
+                },
+                "XMP:FLBackgroundLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLPeakLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLScaledBackgroundLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLScaledPeakLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLBlackLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLWhiteLevel": {
+                    "type": "integer"
+                },
+                "XMP:SpectralCentralWavelength": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "XMP:DocumentAncestors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryAction": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryInstanceID": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryWhen": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistorySoftwareAgent": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryChanged": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Photoshop:XResolution": {
+                    "type": "integer"
+                },
+                "Photoshop:DisplayedUnitsX": {
+                    "type": "integer"
+                },
+                "Photoshop:YResolution": {
+                    "type": "integer"
+                },
+                "Photoshop:DisplayedUnitsY": {
+                    "type": "integer"
+                },
+                "Photoshop:PhotoshopThumbnail": {
+                    "type": "string"
+                },
+                "Photoshop:GlobalAngle": {
+                    "type": "integer"
+                },
+                "Photoshop:GlobalAltitude": {
+                    "type": "integer"
+                },
+                "Photoshop:SlicesGroupName": {
+                    "type": "string"
+                },
+                "Photoshop:NumSlices": {
+                    "type": "integer"
+                },
+                "Photoshop:URL_List": {
+                    "type": "array"
+                },
+                "Photoshop:HasRealMergedData": {
+                    "type": "integer"
+                },
+                "Photoshop:WriterName": {
+                    "type": "string"
+                },
+                "Photoshop:ReaderName": {
+                    "type": "string"
+                },
+                "Photoshop:PrintStyle": {
+                    "type": "integer"
+                },
+                "Photoshop:PrintPosition": {
+                    "type": "string"
+                },
+                "Photoshop:PrintScale": {
+                    "type": "integer"
+                },
+                "Photoshop:PixelAspectRatio": {
+                    "type": "integer"
+                },
+                "XMP:DatasetID": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:CreatorRegion": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "required": [
+        "EXIF"
+    ]
+}

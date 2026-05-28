@@ -11,8 +11,12 @@ if [ $# -eq 0 ]; then
 fi
 
 # Process single file (one argument)
-echo "    Processing: $1"
-cd $1
 ROOT=$(git rev-parse --show-toplevel)
+echo " #### Processing: $1"
+
+echo cd $1
+cd $1
+
+echo datalad slurm-schedule -i $PWD -o $PWD sbatch $ROOT/code/histograms/slurm.sh
 datalad slurm-schedule -i $PWD -o $PWD sbatch $ROOT/code/histograms/slurm.sh
 

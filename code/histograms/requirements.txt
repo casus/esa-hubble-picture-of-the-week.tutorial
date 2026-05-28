@@ -1,2 +1,3 @@
 pillow
 matplotlib
+datalad_slurm @ git+https://github.com/knuedd/datalad-slurm

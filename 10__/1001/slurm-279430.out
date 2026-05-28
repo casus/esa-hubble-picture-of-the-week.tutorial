@@ -1,0 +1,24 @@
+Unloading module python/3.14.2 
+Loading module python/3.14.2 
+Unloading module python/3.14.2 
+Loading module genoa 
+Loading module python/3.14.2 
+Processing 
+Saved histogram to histogram.png
+=============================================
+Epilog started: Thu May 28 16:50:52 CEST 2026
+User:           knuepf66
+Job ID:         279430
+Partition:      cpu-genoa
+Account:        casus
+Batchhost:      cge035
+Job name:       slurm.sh
+Nodelist:       cge035
+No. of tasks:   1
+T used:           00:00:05 
+T requested:      00:10:00 
+Exit code:      0
+Working dir:    /data/home2/knuepf66/data/esa-hubble-picture-of-the-week.tutorial/10__/1001
+Energy (J):     720
+Energy (kWh):   .000200
+---------------------------------------------

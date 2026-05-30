@@ -21,13 +21,16 @@
                     "type": "integer"
                 },
                 "File:FileModifyDate": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "File:FileAccessDate": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "File:FileInodeChangeDate": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "File:FilePermissions": {
                     "type": "integer"
@@ -63,24 +66,44 @@
                     "type": "integer"
                 },
                 "File:YCbCrSubSampling": {
-                    "type": "string"
-                },
-                "JFIF:JFIFVersion": {
-                    "type": "string"
-                },
-                "JFIF:ResolutionUnit": {
-                    "type": "integer"
-                },
-                "JFIF:XResolution": {
-                    "type": "integer"
-                },
-                "JFIF:YResolution": {
-                    "type": "integer"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "EXIF:ImageDescription": {
                     "type": "string"
                 },
+                "EXIF:Software": {
+                    "type": "string"
+                },
                 "XMP:XMPToolkit": {
+                    "type": "string"
+                },
+                "XMP:Marked": {
+                    "type": "integer"
+                },
+                "XMP:InstanceID": {
+                    "type": "string"
+                },
+                "XMP:DocumentID": {
+                    "type": "string"
+                },
+                "XMP:OriginalDocumentID": {
+                    "type": "string"
+                },
+                "XMP:CreatorTool": {
+                    "type": "string"
+                },
+                "XMP:Headline": {
+                    "type": "string"
+                },
+                "XMP:Credit": {
+                    "type": "string"
+                },
+                "XMP:DateCreated": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "XMP:Source": {
                     "type": "string"
                 },
                 "XMP:PublisherID": {
@@ -96,7 +119,8 @@
                     "type": "string"
                 },
                 "XMP:MetadataDate": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "XMP:Publisher": {
                     "type": "string"
@@ -125,13 +149,13 @@
                 "XMP:SpatialRotation": {
                     "type": "integer"
                 },
-                "XMP:Credit": {
+                "XMP:UsageTerms": {
                     "type": "string"
                 },
-                "XMP:DateCreated": {
+                "XMP:DerivedFromInstanceID": {
                     "type": "string"
                 },
-                "XMP:Source": {
+                "XMP:DerivedFromDocumentID": {
                     "type": "string"
                 },
                 "XMP:Instrument": {
@@ -210,10 +234,10 @@
                     "type": "string"
                 },
                 "XMP:Subject": {
-                    "type": "string"
-                },
-                "XMP:UsageTerms": {
-                    "type": "string"
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 },
                 "IPTC:CodedCharacterSet": {
                     "type": "string"
@@ -225,12 +249,19 @@
                     "type": "string"
                 },
                 "IPTC:Keywords": {
-                    "type": "string"
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 },
                 "IPTC:DateCreated": {
                     "type": "string"
                 },
                 "IPTC:TimeCreated": {
+                    "type": "string",
+                    "subtype": "Duration"
+                },
+                "IPTC:Headline": {
                     "type": "string"
                 },
                 "IPTC:Credit": {
@@ -238,6 +269,9 @@
                 },
                 "IPTC:Source": {
                     "type": "string"
+                },
+                "Photoshop:CopyrightFlag": {
+                    "type": "integer"
                 },
                 "Photoshop:IPTCDigest": {
                     "type": "string"
@@ -261,7 +295,8 @@
                     "type": "string"
                 },
                 "ICC_Profile:ProfileDateTime": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "ICC_Profile:ProfileFileSignature": {
                     "type": "string"
@@ -305,6 +340,15 @@
                 "ICC_Profile:MediaBlackPoint": {
                     "type": "string"
                 },
+                "ICC_Profile:RedTRC": {
+                    "type": "string"
+                },
+                "ICC_Profile:GreenTRC": {
+                    "type": "string"
+                },
+                "ICC_Profile:BlueTRC": {
+                    "type": "string"
+                },
                 "ICC_Profile:RedMatrixColumn": {
                     "type": "string"
                 },
@@ -313,6 +357,60 @@
                 },
                 "ICC_Profile:BlueMatrixColumn": {
                     "type": "string"
+                },
+                "APP14:DCTEncodeVersion": {
+                    "type": "integer"
+                },
+                "APP14:APP14Flags0": {
+                    "type": "integer"
+                },
+                "APP14:APP14Flags1": {
+                    "type": "integer"
+                },
+                "APP14:ColorTransform": {
+                    "type": "integer"
+                },
+                "Composite:ImageSize": {
+                    "type": "string"
+                },
+                "Composite:Megapixels": {
+                    "type": "integer"
+                },
+                "Composite:DateTimeCreated": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "Composite:DateTimeOriginal": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "JFIF:JFIFVersion": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "JFIF:ResolutionUnit": {
+                    "type": "integer"
+                },
+                "JFIF:XResolution": {
+                    "type": "integer"
+                },
+                "JFIF:YResolution": {
+                    "type": "integer"
+                },
+                "XMP:DistanceNotes": {
+                    "type": "string"
+                },
+                "XMP:SpectralCentralWavelength": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "XMP:TemporalIntegrationTime": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
                 },
                 "ICC_Profile:DeviceMfgDesc": {
                     "type": "string"
@@ -327,7 +425,8 @@
                     "type": "string"
                 },
                 "ICC_Profile:ViewingCondSurround": {
-                    "type": "string"
+                    "type": "string",
+                    "subtype": "DateTime"
                 },
                 "ICC_Profile:ViewingCondIlluminantType": {
                     "type": "integer"
@@ -352,141 +451,6 @@
                 },
                 "ICC_Profile:Technology": {
                     "type": "string"
-                },
-                "ICC_Profile:RedTRC": {
-                    "type": "string"
-                },
-                "ICC_Profile:GreenTRC": {
-                    "type": "string"
-                },
-                "ICC_Profile:BlueTRC": {
-                    "type": "string"
-                },
-                "APP14:DCTEncodeVersion": {
-                    "type": "integer"
-                },
-                "APP14:APP14Flags0": {
-                    "type": "integer"
-                },
-                "APP14:APP14Flags1": {
-                    "type": "integer"
-                },
-                "APP14:ColorTransform": {
-                    "type": "integer"
-                },
-                "Composite:ImageSize": {
-                    "type": "string"
-                },
-                "Composite:Megapixels": {
-                    "type": "integer"
-                },
-                "Composite:DateTimeCreated": {
-                    "type": "string"
-                },
-                "Composite:DateTimeOriginal": {
-                    "type": "string"
-                },
-                "XMP:TemporalIntegrationTime": {
-                    "type": "array",
-                    "items": {
-                        "type": "integer"
-                    }
-                },
-                "EXIF:Software": {
-                    "type": "string"
-                },
-                "EXIF:ModifyDate": {
-                    "type": "string"
-                },
-                "XMP:CreatorTool": {
-                    "type": "string"
-                },
-                "XMP:CreateDate": {
-                    "type": "string"
-                },
-                "XMP:ModifyDate": {
-                    "type": "string"
-                },
-                "XMP:Format": {
-                    "type": "string"
-                },
-                "XMP:ColorMode": {
-                    "type": "integer"
-                },
-                "XMP:ICCProfileName": {
-                    "type": "string"
-                },
-                "XMP:InstanceID": {
-                    "type": "string"
-                },
-                "XMP:DocumentID": {
-                    "type": "string"
-                },
-                "XMP:OriginalDocumentID": {
-                    "type": "string"
-                },
-                "XMP:FLStretchFunction": {
-                    "type": "string"
-                },
-                "XMP:FLBackgroundLevel": {
-                    "type": "integer"
-                },
-                "XMP:FLPeakLevel": {
-                    "type": "integer"
-                },
-                "XMP:FLScaledBackgroundLevel": {
-                    "type": "integer"
-                },
-                "XMP:FLScaledPeakLevel": {
-                    "type": "integer"
-                },
-                "XMP:FLBlackLevel": {
-                    "type": "integer"
-                },
-                "XMP:FLWhiteLevel": {
-                    "type": "integer"
-                },
-                "XMP:SpectralCentralWavelength": {
-                    "type": "array",
-                    "items": {
-                        "type": "integer"
-                    }
-                },
-                "XMP:DocumentAncestors": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "XMP:HistoryAction": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "XMP:HistoryInstanceID": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "XMP:HistoryWhen": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "XMP:HistorySoftwareAgent": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "XMP:HistoryChanged": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
                 },
                 "Photoshop:XResolution": {
                     "type": "integer"
@@ -539,7 +503,63 @@
                 "Photoshop:PixelAspectRatio": {
                     "type": "integer"
                 },
-                "XMP:DatasetID": {
+                "XMP:Format": {
+                    "type": "string"
+                },
+                "XMP:CreateDate": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "XMP:ModifyDate": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "XMP:ColorMode": {
+                    "type": "integer"
+                },
+                "XMP:ICCProfileName": {
+                    "type": "string"
+                },
+                "XMP:DerivedFromOriginalDocumentID": {
+                    "type": "string"
+                },
+                "XMP:HistoryAction": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryInstanceID": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryWhen": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistorySoftwareAgent": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryChanged": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:HistoryParameters": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:DocumentAncestors": {
                     "type": "array",
                     "items": {
                         "type": "string"
@@ -547,8 +567,120 @@
                 },
                 "XMP:CreatorRegion": {
                     "type": "string"
+                },
+                "XMP:TemporalStartTime": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "XMP:DatasetID": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "EXIF:ModifyDate": {
+                    "type": "string",
+                    "subtype": "DateTime"
+                },
+                "XMP:History": {
+                    "type": "string"
+                },
+                "XMP:FLStretchFunction": {
+                    "type": "string"
+                },
+                "XMP:FLBackgroundLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLPeakLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLScaledBackgroundLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLScaledPeakLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLBlackLevel": {
+                    "type": "integer"
+                },
+                "XMP:FLWhiteLevel": {
+                    "type": "integer"
                 }
-            }
+            },
+            "required": [
+                "SourceFile",
+                "ExifTool:ExifToolVersion",
+                "File:FileName",
+                "File:Directory",
+                "File:FileSize",
+                "File:FileModifyDate",
+                "File:FileAccessDate",
+                "File:FileInodeChangeDate",
+                "File:FilePermissions",
+                "File:FileType",
+                "File:FileTypeExtension",
+                "File:MIMEType",
+                "File:ImageWidth",
+                "File:ImageHeight",
+                "File:EncodingProcess",
+                "File:BitsPerSample",
+                "File:ColorComponents",
+                "File:YCbCrSubSampling",
+                "EXIF:ImageDescription",
+                "XMP:XMPToolkit",
+                "XMP:Credit",
+                "XMP:DateCreated",
+                "XMP:Source",
+                "XMP:PublisherID",
+                "XMP:ResourceID",
+                "XMP:ResourceURL",
+                "XMP:Type",
+                "XMP:MetadataDate",
+                "XMP:Publisher",
+                "XMP:ReferenceURL",
+                "XMP:MetadataVersion",
+                "XMP:Id",
+                "XMP:UsageTerms",
+                "XMP:SpatialNotes",
+                "XMP:SpectralNotes",
+                "XMP:CreatorCountry",
+                "XMP:CreatorAddress",
+                "XMP:CreatorWorkURL",
+                "XMP:CreatorCity",
+                "XMP:Title",
+                "XMP:Subject",
+                "Photoshop:IPTCDigest",
+                "ICC_Profile:ProfileCMMType",
+                "ICC_Profile:ProfileVersion",
+                "ICC_Profile:ProfileClass",
+                "ICC_Profile:ColorSpaceData",
+                "ICC_Profile:ProfileConnectionSpace",
+                "ICC_Profile:ProfileDateTime",
+                "ICC_Profile:ProfileFileSignature",
+                "ICC_Profile:PrimaryPlatform",
+                "ICC_Profile:CMMFlags",
+                "ICC_Profile:DeviceManufacturer",
+                "ICC_Profile:DeviceModel",
+                "ICC_Profile:DeviceAttributes",
+                "ICC_Profile:RenderingIntent",
+                "ICC_Profile:ConnectionSpaceIlluminant",
+                "ICC_Profile:ProfileCreator",
+                "ICC_Profile:ProfileID",
+                "ICC_Profile:ProfileCopyright",
+                "ICC_Profile:ProfileDescription",
+                "ICC_Profile:MediaWhitePoint",
+                "ICC_Profile:MediaBlackPoint",
+                "ICC_Profile:RedTRC",
+                "ICC_Profile:GreenTRC",
+                "ICC_Profile:BlueTRC",
+                "ICC_Profile:RedMatrixColumn",
+                "ICC_Profile:GreenMatrixColumn",
+                "ICC_Profile:BlueMatrixColumn",
+                "Composite:ImageSize",
+                "Composite:Megapixels"
+            ]
         }
     },
     "required": [

@@ -1,23 +1,19 @@
 #!/bin/bash -l
 
-#SBATCH --partition=cpu-genoa
+#SBATCH --partition=dc-cpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --account=casus
+#SBATCH --account=training2611
 #SBATCH --mem=2G
 #SBATCH --time=0:10:00
 
 # Either use from this location if it is scheduled without modifications. 
 # Or copy to a subdir, modify specifics there, then schedule from there.
 
-module purge
-module load genoa
-module load python
-
 # get ROOT of the datalad repository
 ROOT=../..
-
-source $ROOT/venv/bin/activate
+export PATH=$PATH:$HOME/../judac/local
+source $HOME/../judac/venv/bin/activate
 
 echo "Processing $DIR"
 

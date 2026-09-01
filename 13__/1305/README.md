@@ -1,0 +1,6 @@
+# Preview of potw1305a: "A side-on spiral streak"
+[https://www.spacetelescope.org/images/potw1305a/](https://www.spacetelescope.org/images/potw1305a/)
+
+![potw1305a.jpg.png](potw1305a.jpg.png)
+
+This  thin, glittering streak of stars is the spiral galaxy ESO 121-6, which  lies in the southern constellation of Pictor (The Painter's Easel).  Viewed almost exactly side-on, the intricate structure of the swirling  arms is hidden, but the full length of the galaxy can be seen —  including the intense glow from the central bulge, a dense region of  tightly packed young stars sitting at the centre of the spiral arms. Tendrils  of dark dust can be seen across the frame, partially obscuring the  bright centre of the galaxy and continuing out towards the smattering of  stars at its edges, where the dust lanes and shapes melt into the inky  background. Numerous nearby stars and galaxies are visible as small  smudges in the surrounding sky, and the brightest stars are dazzlingly  prominent towards the bottom left of the image. ESO  121-6 is a galaxy with patchy, loosely wound arms and a relatively  faint central bulge. It actually belongs to a group of galaxies, a clump  of no more than 50 similar structures all loosely bound to one another  by gravity. The Milky Way is also a member of a galactic group, known as  the Local Group. 

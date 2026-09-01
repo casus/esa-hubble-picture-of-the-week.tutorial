@@ -1,0 +1,6 @@
+# Preview of potw1121a: "Commotion in a crowded cluster"
+[https://www.spacetelescope.org/images/potw1121a/](https://www.spacetelescope.org/images/potw1121a/)
+
+![potw1121a.jpg.png](potw1121a.jpg.png)
+
+Deep within the Milky Way lies the ancient globular cluster Terzan 5. This NASA/ESA Hubble Space Telescope image shows the cluster in wonderful detail, but it is the chaotic motions of its stars that make it particularly interesting to astronomers. Terzan 5 has an exceptionally dense core. As a result, it is thought to have one of the highest stellar collision rates for a globular cluster. And packed in at such close quarters, many stars are pushed so close together that they form tight binary systems. Interestingly, studies of individual stars within the cluster reveal that they can be split into two age groups: 6 and 12 billion years old. Some astronomers have hypothesised that the younger crowd may have been stripped away from a dwarf galaxy. This picture was created from images taken with the Wide Field Channel of Hubble’s Advanced Camera for Surveys. Images through a yellow/red filter (F606W, coloured blue) have been combined with those through a near-infrared filter (F814W, coloured red) to create this composite picture. The total exposure times per filter were 340 s and 360 s, respectively and the field of view is 3.1 x 1.4 arcminutes.

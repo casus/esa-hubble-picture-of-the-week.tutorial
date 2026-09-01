@@ -1,0 +1,157 @@
+{
+    "EXIF": {
+        "SourceFile": "10__/1024/potw1024a.jpg",
+        "ExifTool:ExifToolVersion": 13,
+        "File:FileName": "potw1024a.jpg",
+        "File:Directory": "10__/1024",
+        "File:FileSize": 3839769,
+        "File:FileModifyDate": "2023:12:11 23:12:23+01:00",
+        "File:FileAccessDate": "2026:05:29 13:56:20+02:00",
+        "File:FileInodeChangeDate": "2026:05:29 13:56:20+02:00",
+        "File:FilePermissions": 100444,
+        "File:FileType": "JPEG",
+        "File:FileTypeExtension": "JPG",
+        "File:MIMEType": "image/jpeg",
+        "File:ExifByteOrder": "MM",
+        "File:CurrentIPTCDigest": "0934a6d0024e160c99f82e0a9af3fb99",
+        "File:ImageWidth": 3864,
+        "File:ImageHeight": 3825,
+        "File:EncodingProcess": 0,
+        "File:BitsPerSample": 8,
+        "File:ColorComponents": 3,
+        "File:YCbCrSubSampling": "1 1",
+        "JFIF:JFIFVersion": "1 2",
+        "JFIF:ResolutionUnit": 0,
+        "JFIF:XResolution": 100,
+        "JFIF:YResolution": 100,
+        "EXIF:ImageDescription": "The keen eye of the NASA/ESA Hubble Space Telescope has often peered deeply into the Orion Nebula to see the processes occurring there and revealed many dramatic tableaux of young stars hurling material into space and entire solar systems forming. This image shows the spectacular region around an object known as Herbig-Haro 502, a very small part of the vast stellar nursery. The entire picture is filled with the rich colourful glow of the nebula and, just left of the centre, a star embedded in a pinkish glow can be also seen. This fascinating object is an example of a very young star surrounded by the cloud of gas from which it formed. This leftover material may accrete to form planets and eventually solar systems as intricate as our own. It is highly likely that the material that now forms our own planet Earth was part of a similar gaseous cocoon about five billion years ago. Such is the importance of these objects that much Hubble observing time has been dedicated to studying them. In this image Herbig-Haro 502 shows up as a narrow pink jet extending away from the young star as well as curved bow shock features to the upper-right and lower-left. Herbig-Haro objects are striking areas of nebulosity near to recently formed stars. They are created when the very young stars eject gas at breakneck speeds of hundreds of kilometres per second, which impacts the surrounding gas and dust. These ephemeral shockwaves are thought to dissipate after a few thousand years; the blink of an eye in astronomical terms. They vary in size but are often much larger than our own Solar System. At only around 1500 light-years distant, the Orion Nebula it is one of the closest areas of star formation to us. Understanding how stars form and evolve is an important area of astronomy, and one to which Hubble has greatly contributed. Images such as this are not only beautiful from an artistic perspective, but also help us understand more about how the Universe developed, and is continuing to change. This image was taken with the Wide Field Channel of the Advanced Camera for Surveys on Hubble. This picture was created from images taken through filters that isolate the light from glowing hydrogen (F658N, coloured red), ionised oxygen (F502N, coloured green) and yellow light (F550W, coloured blue). The exposures times were 1000 s, 2000 s and 1000 s respectively. The field of view is about 3.3 arcminutes across.",
+        "XMP:XMPToolkit": "Exempi + XMP Core 5.6.0",
+        "XMP:Type": "Observation",
+        "XMP:MetadataDate": "2019:10:07 11:40:57.728736",
+        "XMP:Publisher": "ESA/Hubble",
+        "XMP:ReferenceURL": "https://www.spacetelescope.org/images/potw1024a/",
+        "XMP:MetadataVersion": 1,
+        "XMP:Id": "potw1024a",
+        "XMP:ResourceURL": "http://www.spacetelescope.org/static/archives/images/original/potw1024a.tif",
+        "XMP:ResourceID": "potw1024a",
+        "XMP:PublisherID": "esahubble",
+        "XMP:SpatialCoordsystemProjection": "TAN",
+        "XMP:SpatialEquinox": "J2000",
+        "XMP:SpatialQuality": "Full",
+        "XMP:SpatialCoordinateFrame": "ICRS",
+        "XMP:SpatialRotation": 113,
+        "XMP:Credit": "Credit: ESA/Hubble & NASA",
+        "XMP:DateCreated": "2010:10:04 10:00:00",
+        "XMP:Source": "ESA/Hubble",
+        "XMP:SpectralCentralWavelength": [
+            658,
+            502,
+            550
+        ],
+        "XMP:Instrument": [
+            "ACS",
+            "ACS",
+            "ACS"
+        ],
+        "XMP:SpectralBand": [
+            "Optical",
+            "Optical",
+            "Optical"
+        ],
+        "XMP:SpatialReferenceDimension": [
+            3864.0,
+            3825.0
+        ],
+        "XMP:TemporalIntegrationTime": [
+            1000,
+            2000,
+            1000
+        ],
+        "XMP:SpectralColorAssignment": [
+            "Red",
+            "Green",
+            "Blue"
+        ],
+        "XMP:SpectralBandpass": [
+            "H-alpha",
+            "Oii",
+            "V"
+        ],
+        "XMP:SpatialScale": [
+            -1.3915776076e-05,
+            1.3915776076e-05
+        ],
+        "XMP:SpatialNotes": "",
+        "XMP:SpectralNotes": "",
+        "XMP:SpatialReferencePixel": [
+            1932.0,
+            1912.0
+        ],
+        "XMP:SpatialReferenceValue": [
+            83.8668542607,
+            -5.49804467981
+        ],
+        "XMP:Facility": [
+            "Hubble Space Telescope",
+            "Hubble Space Telescope",
+            "Hubble Space Telescope"
+        ],
+        "XMP:CreatorCountry": "Germany",
+        "XMP:CreatorAddress": "Karl-Schwarzschild-Strasse 2",
+        "XMP:CreatorWorkURL": "http://www.spacetelescope.org/",
+        "XMP:CreatorCity": "Garching bei München",
+        "XMP:Title": "Star formation fireworks in Orion",
+        "XMP:Subject": [
+            "Herbig-Haro 502",
+            "Orion Nebula"
+        ],
+        "XMP:UsageTerms": "Creative Commons Attribution 4.0 International License",
+        "IPTC:CodedCharacterSet": "\u001b%G",
+        "IPTC:ApplicationRecordVersion": 4,
+        "IPTC:ObjectName": "Star formation fireworks in Orion",
+        "IPTC:Keywords": [
+            "Herbig-Haro 502",
+            "Orion Nebula"
+        ],
+        "IPTC:DateCreated": "2010:10:04",
+        "IPTC:TimeCreated": "10:00:00",
+        "IPTC:Credit": "Credit: ESA/Hubble & NASA",
+        "IPTC:Source": "ESA/Hubble",
+        "Photoshop:IPTCDigest": "0934a6d0024e160c99f82e0a9af3fb99",
+        "Ducky:Quality": 80,
+        "ICC_Profile:ProfileCMMType": "ADBE",
+        "ICC_Profile:ProfileVersion": 528,
+        "ICC_Profile:ProfileClass": "mntr",
+        "ICC_Profile:ColorSpaceData": "RGB ",
+        "ICC_Profile:ProfileConnectionSpace": "XYZ ",
+        "ICC_Profile:ProfileDateTime": "1999:02:22 12:03:15",
+        "ICC_Profile:ProfileFileSignature": "acsp",
+        "ICC_Profile:PrimaryPlatform": "APPL",
+        "ICC_Profile:CMMFlags": 0,
+        "ICC_Profile:DeviceManufacturer": "none",
+        "ICC_Profile:DeviceModel": "",
+        "ICC_Profile:DeviceAttributes": "0 0",
+        "ICC_Profile:RenderingIntent": 1,
+        "ICC_Profile:ConnectionSpaceIlluminant": "0.9642 1 0.82491",
+        "ICC_Profile:ProfileCreator": "ADBE",
+        "ICC_Profile:ProfileID": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+        "ICC_Profile:ProfileCopyright": "Version 1.1 - Copyright (C) 2003-2004 Color Solutions Software, All Rights Reserved.",
+        "ICC_Profile:ProfileDescription": "Lstar-RGB.icc",
+        "ICC_Profile:MediaWhitePoint": "0.96429 1 0.8251",
+        "ICC_Profile:MediaBlackPoint": "0 0 0",
+        "ICC_Profile:RedTRC": "(Binary data 524 bytes, use -b option to extract)",
+        "ICC_Profile:GreenTRC": "(Binary data 524 bytes, use -b option to extract)",
+        "ICC_Profile:BlueTRC": "(Binary data 524 bytes, use -b option to extract)",
+        "ICC_Profile:RedMatrixColumn": "0.65027 0.32028 0",
+        "ICC_Profile:GreenMatrixColumn": "0.17804 0.60205 0.06783",
+        "ICC_Profile:BlueMatrixColumn": "0.13588 0.07767 0.75708",
+        "APP14:DCTEncodeVersion": 100,
+        "APP14:APP14Flags0": 49152,
+        "APP14:APP14Flags1": 0,
+        "APP14:ColorTransform": 1,
+        "Composite:ImageSize": "3864 3825",
+        "Composite:Megapixels": 14,
+        "Composite:DateTimeCreated": "2010:10:04 10:00:00",
+        "Composite:DateTimeOriginal": "2010:10:04 10:00:00"
+    }
+}

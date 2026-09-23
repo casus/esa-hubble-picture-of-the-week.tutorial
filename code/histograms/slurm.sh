@@ -1,19 +1,20 @@
 #!/bin/bash -l
 
-#SBATCH --partition=dc-cpu
+#SBATCH --partition=rome
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --account=training2611
 #SBATCH --mem=2G
 #SBATCH --time=0:10:00
 
 # Either use from this location if it is scheduled without modifications. 
 # Or copy to a subdir, modify specifics there, then schedule from there.
 
+module load 2025
+module load Python/3.13.5-GCCcore-14.3.0
+
 # get ROOT of the datalad repository
 ROOT=../..
-export PATH=$PATH:$HOME/../judac/local
-source $HOME/../judac/venv/bin/activate
+source $HOME/venv/bin/activate
 
 echo "Processing $DIR"
 
@@ -27,3 +28,4 @@ $ROOT/code/histograms/visualize_histogram.py histogram.json -o histogram.png
 if ! grep -q "# Histogram" README.md; then
     echo -e '\n\n# Histogram\n\n![histogram.png](histogram.png)\n' >>README.md
 fi
+

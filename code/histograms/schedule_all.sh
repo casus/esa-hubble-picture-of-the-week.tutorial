@@ -4,6 +4,12 @@
 if [ $# -eq 0 ]; then
     find . -name "pot*.tif" -print0 | while IFS= read -r -d '' file; do
         dir=`dirname $file`
+
+        if [[ -f $dir/histogram.json ]]; then 
+            echo "already exists in $dir, skip"
+            continue
+        fi
+
         echo \"Scheduling: $dir\"
         $0 $dir
     done

@@ -1,0 +1,23 @@
+/var/spool/slurm/slurmd/job27664570/slurm_script: line 17: /home/scur0624/venv/bin/activate: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: matplotlib in /home/scur0624/.local/lib/python3.13/site-packages (3.11.2)
+Requirement already satisfied: contourpy>=1.0.1 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (1.4.0)
+Requirement already satisfied: cycler>=0.10 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (4.66.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (1.5.1)
+Requirement already satisfied: numpy>=1.25 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (2.5.3)
+Requirement already satisfied: packaging>=20.0 in /sw/arch/RHEL9/EB_production/2025/software/Python/3.13.5-GCCcore-14.3.0/lib/python3.13/site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=9 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (3.3.3)
+Requirement already satisfied: python-dateutil>=2.7 in /home/scur0624/.local/lib/python3.13/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /home/scur0624/.local/lib/python3.13/site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: numpy in /home/scur0624/.local/lib/python3.13/site-packages (2.5.3)
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Processing 
+Saved histogram to histogram.png

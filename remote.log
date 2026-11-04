@@ -1,1 +1,2 @@
 16b00f86-077e-4a3b-9bb1-e9a040be0b2d autoenable=true bucket=knuepf66-esa-potw-bulkdata.datalad chunk=100M datacenter=US encryption=none host=s3.casus.science name=s3.casus.science port=9000 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1779947195s
+cc2aa39f-f659-4f65-88df-054183a7fe0d autoenable=true bucket=tue-starter-name chunk=100M datacenter=US encryption=none host=s3.casus.science name=mys3 port=9000 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1793800433s
